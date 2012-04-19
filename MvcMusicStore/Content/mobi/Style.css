@@ -1,0 +1,111 @@
+﻿/*
+BUTTONS, SELECTS */
+.buttons form {display:inline;}
+
+.buttons {clear:both;float:left;margin-left:10px;margin-top:20px;}
+button.search,.buttons a.search {background:none;border:none;}
+button.search:hover {background:none;border:none;cursor:hand;}
+button.delete,.buttons a.delete {background:url(../Images/icons/delete.png) no-repeat center center;cursor:hand;border:0 none;height:19px;vertical-align:top;width:19px;}
+
+input.submit, button.add,.buttons a.add  {background-color:#12a8bf;color:#FFF; padding:5px; border:1px solid #12a8bf; cursor:hand; font-weight:700; text-transform:uppercase}
+input.submit:hover,
+.buttons a.add:hover, button.add:hover,.buttons a.add:active {background-color:#58afbc;border:1px solid #12a8bf;color:#FFF;}
+/*input.submitbutton,a.submitbutton {background-color:#5E868D;border:1px solid;border-color:#5d5d5d;color:#FFF;}
+
+button.noStyle {background-color:transparent;border:none;cursor:pointer;display:inline;font-weight:700;line-height:130%;margin:0 7px 0 0;}
+button.noStyle:hover {background-color:transparent;border:none;}
+.buttons a,.buttons button,#unitconfigurationtable button,button.standard {background-color:#f5f5f5;border:1px solid #CCC;border-left:1px solid #eee;
+    border-top:1px solid #eee;cursor:pointer;display:inline;font-weight:700;line-height:130%;margin:0 7px 0 0;padding:5px 10px 6px 7px;}
+.buttons button,#unitconfigurationtable button,button.standard {overflow:visible;padding:4px 10px 3px 7px;width:auto;}
+.buttons button[type],#unitconfigurationtable button[type],button[type].standard {line-height:17px;padding:5px 10px 5px 7px;}
+*:first-child+html button[type] {padding:4px 10px 3px 7px;}
+.buttons button img,.buttons a img {border:none;height:16px;margin:0 3px -3px 0 !important;padding:0;width:16px;}
+button:hover,.buttons a:hover {background-color:#CCC;border:1px solid #CCC;color:#369;}
+.buttons a:active {background-color:#CCC;border:1px solid #CCC;color:#fff;}
+
+
+.buttons a.cancel,button.cancel {color:#d12f19;}
+.buttons a.cancel:hover,button.cancel:hover {background:#fbe3e4;border:1px solid #fbc2c4;color:#d12f19;}
+.buttons a.cancel:active {background-color:#d12f19;border:1px solid #d12f19;color:#fff;}
+button.save,button.Submit,.buttons a.save {background-color:#E8E8E8;border:1px solid #CCC;color:#5d5d5d;height:30px;}
+.buttons a.save:hover,button.save:hover,button.Submit:hover {background-color:#C2C2C2;border:1px solid #CCC;color:#FFF;}
+.buttons a.save:active {background-color:#C2C2C2;border:1px solid #CCC;color:#fff;}
+.buttons a.delete:hover,button.delete:hover {background-color:Transparent;border:outset 1px #A9A9A9;cursor:pointer;}
+.buttons a.delete:active,button.delete:active {background-color:Transparent;border:0;}
+
+
+a.submitbutton {margin-right:5px;padding:1px;}
+a.button {background:transparent url('../Images/Buttons/bg_button_a.gif') no-repeat scroll top right;color:#444;
+    display:block;float:right;font:normal 12px arial, sans-serif;height:24px;margin-right:6px;padding-right:18px;text-decoration:none;}
+a.button span {background:transparent url('../Images/Buttons/bg_button_span.gif') no-repeat;display:block;line-height:14px;padding:5px 0 5px 18px;}
+a.button:active {background-position:bottom right;color:#000;outline:none;}
+a.button:active span {background-position:bottom left;padding:6px 0 4px 18px;}
+
+.viewButtons {margin-top:20px;}
+
+*/
+select.lbsmall {font-size:12px;margin-left:4px;text-align:left;width:70px;}
+select.lbxsmall {font-size:12px;margin-left:4px;text-align:left;width:50px;}
+select {font-size:14px;height:30px;padding:7px 3px 3px 0;}
+.selectedItems {height:350px;width:200px;}
+
+/*********/
+
+/*
+TABLES */
+
+table.grid td {border:0;border-left:solid 1px #cfe5e9;border-right:solid 1px #cfe5e9;padding:5px;}
+table.grid th {border:solid 1px #cfe5e9;color:#156B97;cursor:default;font-size:12px;padding:6px 5px;text-align:left;white-space:pre-wrap;}
+table.grid tr:hover {background-color:#f7f7f7;color:#000;}
+table.grid .gridrow {text-align:left;}
+table.grid .gridFiller {width:80%;}
+table.grid,table.search {border:solid 1px #e8eef4;border-collapse:collapse;clear:both;color:#156B97;white-space:nowrap;width:100%;}
+table.grid thead, table.grid thead tr:hover {background-image:url(../images/design/searchgrid_repeater.jpg); 
+		background-repeat:repeat-x; background-color:#eff4f5; color:#FFF;}
+table.grid .gridView,table.grid .gridDelete {text-align:center;width:60px;}
+table.search tr td {border:solid 3px #000;}
+
+/*********/
+
+/*
+LABELS */
+label{font-size:15px;}
+.lbMedium {display:inline-block;width:150px;}
+.lbLarge {display:inline-block;width:250px;}
+.lbSmall {display:inline-block;text-align:right;vertical-align:middle;width:100px;}
+.lbSmallLeft {display:inline-block;text-align:left;vertical-align:middle;width:100px;}
+.lbSmallRight {display:inline-block;text-align:right;vertical-align:middle;width:100px;}
+.lbSmallLeftDetail {color:#5d5d5d;display:inline-block;font-weight:700;text-align:left;vertical-align:middle;width:100px;}
+.txtMedium {height:24px;line-height:24px;width:250px;}
+.alignRight {text-align:right;}
+.alignLeft {text-align:right;}
+/*********/
+
+/*
+POPUPS */
+#backgroundPopup {_position:absolute;background:#000;border:1px solid #cecece;display:none;height:100%;left:0;position:fixed;top:0;width:100%;z-index:1;}
+#popupContact {_position:absolute;background:#FFF;border:2px solid #cecece;display:none;font-size:13px;height:384px;padding:12px;position:fixed;width:408px;z-index:2;}
+#popupContact h1 {border-bottom:1px dotted #D3D3D3;color:#6FA5FD;font-size:22px;font-weight:700;margin-bottom:20px;padding-bottom:2px;text-align:left;}
+/*********/
+
+
+/*
+OTHERS */
+
+.clear {overflow:hidden;width:100%;}
+.posColumn {float:left;padding-left:10px;padding-right:10px;}
+.posColumn p {margin:7px 0;padding:0;}
+.mapLarge {float:left; margin-left:20px; margin-top:20px; width:530px; height:220px;}
+.mapSmall { margin-left:20px;}
+.pageHeader {width:100%;}
+.contentHeader {float:left;padding-bottom:10px;width:100%;}
+.contentHeader .buttons {float:right;margin-top:0;}
+.contentHeader .search {float:right;height:100%;}
+.contentHeader .advancedSearch {clear:both;}
+.contentHeader .search input {height:20px;padding-bottom:2px;padding-top:2px;width:250px;}
+.pageContent {float:left;width:100%;}
+.cms_pic {padding:10px;}
+.notification {background-color:#fffeeb;border-bottom:solid 1px #ccc;color:#5d5d5d;height:20px;text-align:center;width:100%;}
+.contentHeader .headers,.left {float:left;}
+
+/*********/
